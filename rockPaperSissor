@@ -37,7 +37,13 @@ print(game_images[computer_choice])
 
 if user_choice >= 3 or user_choice < 0: 
   print("잘못된 번호를 선택했어요 0 , 1, 2 중 선택하세요") 
-elif (             ):
-  print('You win!')
-elif (             ):
-  print('You lose!')
+elif  and :
+  print("이겼습니다!")
+elif  and :
+  print("졌습니다.")
+elif computer_choice > user_choice:
+  print("졌습니다.")
+elif user_choice > computer_choice:
+  print("이겼습니다!")
+elif computer_choice == user_choice:
+  print("비겼습니다.")
